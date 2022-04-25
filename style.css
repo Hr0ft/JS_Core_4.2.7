@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.search__lists, button {
+cursor: pointer;
+}
+
+/*  app  */
+
+.search {
+    font-family: "Roboto", "Arial", sans-serif;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 661px;
+    min-height: 761px;
+    height: auto;
+    background-color: #C4C4C4;
+
+    padding: 62px 77px;
+}
+
+/*  search-line  */
+
+.search__line {
+    background-color: #C4C4C4; 
+}
+
+.search__input {
+    width: 500px;
+    height: 61px;
+
+    padding-left: 13px;
+    
+    font-size:  48px;
+    line-height: 56px;
+    
+    border: none;
+}
+
+.search__request-field{
+    background-color: #C4C4C4;
+    width: 500px;   
+}
+
+.search__lists {
+    background-color: #E3E3E3;
+  
+}
+
+.search__element {
+    border: solid 1px #000000;
+    padding-left: 13px;
+
+    font-size:  30px;
+    line-height: 35px;
+}
+
+/*  search response */
+
+.footer {   
+    position: absolute;
+    top: 350px;
+    background-color: #C4C4C4;
+}
+
+.cards {
+    width: 661px;
+    padding-bottom: 72px;
+}
+
+.card {
+    width: 500px;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: dashed 2px red;
+    margin: 0 auto;
+    padding: 8px 32px 8px 16px;
+
+    background-color: #E27BEB;
+    border: solid 1px #000000;
+}
+
+.card__discription {
+    box-sizing: border-box;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.card__cross {
+    box-sizing: border-box;
+
+    width: 42px;
+    height: 38.5px;
+
+    background-image: url(./img/Vector1.svg), url(./img/Vector2.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+    background-color: #E27BEB;
+
+    border: none;
+}
